@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest {{ .Title }} Public BitTorrent Trackers (Daily Updated)</title>
+    <meta name="description"
+        content="This site automatically aggregates the latest public BitTorrent Aria2 trackers daily, providing all, best and http BitTorrent tracker lists that can be imported into aria2 clients.">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <script src="../assets/func.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="page">
+            <div class="header">
+                <div class="post-meta">
+                    <span>{{ .Time }}</span>
+                </div>
+                <h1>{{ .Title }} Trackers List</h1>
+            </div>
+            <div class="content">
+                <textarea id="storage" style="display: none;">{{ .Content}}</textarea>
+                <button id="copy_btn" onclick="copyText()">copy trackers to clipboard</button>
+                <article id="trackers">{{ .Content }}</article>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
