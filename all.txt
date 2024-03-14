@@ -30,8 +30,6 @@ http://open.acgnxtracker.com:80/announce
 
 http://retracker.hotplug.ru:2710/announce
 
-http://retracker.seven-sky.net:80/announce
-
 http://t.acg.rip:6699/announce
 
 http://tinfoil.space:6969/announce
@@ -43,6 +41,8 @@ http://torrentsmd.com:8080/announce
 http://tracker.bt4g.com:2095/announce
 
 http://tracker.dler.com:6969/announce
+
+http://tracker.dler.org:6969/announce
 
 http://tracker.edkj.club:6969/announce
 
@@ -162,8 +162,6 @@ udp://aarsen.me:6969/announce
 
 udp://aegir.sexy:6969/announce
 
-udp://bt.ktrackers.com:6666/announce
-
 udp://bt1.archive.org:6969/announce
 
 udp://bt2.archive.org:6969/announce
@@ -240,8 +238,6 @@ udp://retracker01-msk-virt.corbina.net:80/announce
 
 udp://ryjer.com:6969/announce
 
-udp://su-data.com:6969/announce
-
 udp://tamas3.ynh.fr:6969/announce
 
 udp://tk1.trackerservers.com:8080/announce
@@ -289,6 +285,8 @@ udp://tracker.skyts.net:6969/announce
 udp://tracker.srv00.com:6969/announce
 
 udp://tracker.t-rb.org:6969/announce
+
+udp://tracker.theoks.net:6969/announce
 
 udp://tracker.therarbg.com:6969/announce
 
